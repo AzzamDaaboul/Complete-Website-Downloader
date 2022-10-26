@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.IO;
 using System.Threading.Tasks;
@@ -53,7 +53,7 @@ namespace WebsiteDownloader
             }
             catch (Exception exception)
             {
-                MessageBox.Show($"Permission required to run this application, try to run it as administrator, ERROR: {exception.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Permission required to run this application, try to run it as administrator, Erorr code: {exception.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
